@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header id="Cabeçalho">
+        <div class="navbar navbar-expand-lg">
+            <a class="logo" href="https://granderota-shop.vercel.app/">
+                <img src="./Img/chapel de palha.png" alt="logo" width="50" height="46">
+                Grande Rota
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#melhores-arcos">Melhores Arcos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Curiosidades">Curiosidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#Cabeçalho">
+            <section id="inicio">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./Img/Straw-Hat-Pirates-Designs-One-Piece.jpg" class="d-block w-100" alt="..."
+                                height="600">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Img/straw-hats-group-one-piece-desktop-idg4aqn5l0lh40dk.jpg"
+                                class="d-block w-100" alt="..." height="600">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./Img/vertical-collage-one-piece-desktop-fftcjfzfrj04rfyv.jpg"
+                                class="d-block w-100" alt="..." height="600">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="row Mundo">
+                    <div class="col-8">
+                        <h2>Bem-vindo ao Mundo de One Piece</h2>
+                        <p>O mundo de One Piece é vasto e repleto de mistérios, aventuras e personagens inesquecíveis.
+                            Criado por Eiichiro Oda, este universo é composto por várias ilhas e mares, cada um com suas
+                            próprias culturas, perigos e maravilhas.</p>
+                        <p>No centro da história está o jovem pirata Monkey D. Luffy e sua tripulação, os Chapéus de
+                            Palha. Luffy, inspirado por seu ídolo Shanks e guiado por seu sonho de encontrar o One Piece
+                            e se tornar o Rei dos Piratas, lidera uma equipe diversa e leal. Juntos, eles enfrentam
+                            inimigos poderosos, descobrem segredos antigos e forjam laços inquebráveis enquanto navegam
+                            pela Grand Line.</p>
+                        <br> <br>
+                    </div>
+                    <div class="col">
+                        <p class="d-inline-flex gap-1">
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                Mapa da Grand Line
+                            </a>
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <img src="./Img/619f9-16531509486041.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="melhores-arcos">
+                <h2 class="cabeçalho">Melhores Arcos</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                Melhores arcos de acordo com os fans
+                            </div>
+                            <img src="https://media.fstatic.com/vW30eeDUm4QuBIsyFz0hS4-TH1A=/322x478/smart/filters:format(webp)/media/movies/covers/2021/03/cf1b13b32588ca08f0d2420da75ef924.jpg"
+                                alt="Img-Arco">
+                            <div class="card-body">
+                                <h4 class="card-title">Arco de Wano</h4>
+                                <p class="card-text">Este arco é elogiado por sua temática japonesa única e pelas
+                                    intensas batalhas que envolvem os Piratas do Chapéu de Palha e seus aliados contra
+                                    os poderosos Yonkos. Ele redefine muitos aspectos da série e é considerado um dos
+                                    melhores</p>
+                                <a class="btn btn-primary"
+                                    href="https://www.myanimeforlife.com/best-one-piece-anime-arcs-ranked/">My anime for
+                                    life</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                Melhores arcos de acordo com os fans
+                            </div>
+                            <img src="https://media.fstatic.com/_dk6Qw6rnIxgcYbeT7HsB4MRCNk=/322x478/smart/filters:format(webp)/media/movies/covers/2012/01/f0f053497c0aea69e0f62e964fb8b135.jpg"
+                                alt="Img-Arco">
+                            <div class="card-body">
+                                <h4 class="card-title">Arco de Marineford</h4>
+                                <p class="card-text">Conhecido também como a Guerra dos Melhores, este arco é crucial
+                                    para a série, pois envolve uma grande guerra entre os piratas e a Marinha,
+                                    resultando na morte de personagens importantes e mudanças significativas no mundo de
+                                    One Piece</p>
+                                <a class="btn btn-primary"
+                                    href="https://www.myanimeforlife.com/best-one-piece-anime-arcs-ranked/">My anime for
+                                    life</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                Melhores arcos de acordo com os fans
+                            </div>
+                            <img src="https://media.fstatic.com/xoaqhQ-p48ccV1RbeYXU6utftR4=/322x478/smart/filters:format(webp)/media/movies/covers/2012/01/e71ab99a3e2299c35075e2b6396ebc7b.jpg"
+                                alt="Img-Arco" height="634">
+                            <div class="card-body">
+                                <h4 class="card-title">Arco de Enies Lobby</h4>
+                                <p class="card-text">Este arco segue os Chapéus de Palha enquanto eles tentam resgatar
+                                    Nico Robin das garras do Governo Mundial. Destaca-se pela intensa ação e pelo
+                                    desenvolvimento emocional dos personagens, especialmente Robin</p>
+                                <a class="btn btn-primary"
+                                    href="https://www.myanimeforlife.com/best-one-piece-anime-arcs-ranked/">My anime for
+                                    life</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                Melhores arcos de acordo com os fans
+                            </div>
+                            <img src="https://i.pinimg.com/474x/2f/2e/c3/2f2ec3027006df7460512b2f4ee2cd04.jpg"
+                                alt="Img-Arco" height="634">
+                            <div class="card-body">
+                                <h4 class="card-title">Arco de Alabasta</h4>
+                                <p class="card-text">Um dos primeiros grandes arcos da série, Alabasta envolve uma
+                                    rebelião contra o governo corrupto de Crocodile. Este arco é memorável pelas
+                                    batalhas épicas e pelo desenvolvimento dos personagens principais​</p><br>
+                                <a class="btn btn-primary"
+                                    href="https://www.myanimeforlife.com/best-one-piece-anime-arcs-ranked/">My anime for
+                                    life</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                Melhores arcos de acordo com os fans
+                            </div>
+                            <img src="https://i.pinimg.com/originals/45/a4/66/45a46682216a336283cfc700d1d2e775.jpg"
+                                alt="Img-Arco" height="634">
+                            <div class="card-body">
+                                <h4 class="card-title">Arco de Dressrosa</h4>
+                                <p class="card-text">Este arco é centrado na derrubada de Donquixote Doflamingo e é
+                                    notável por suas longas e intensas batalhas, bem como pelo aprofundamento na
+                                    história de alguns personagens, como Law e Doflamingo</p><br>
+                                <a class="btn btn-primary"
+                                    href="https://www.myanimeforlife.com/best-one-piece-anime-arcs-ranked/">My anime for
+                                    life</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-header">
+                                Melhores arcos de acordo com os fans
+                            </div>
+                            <img src="https://media.fstatic.com/xoaqhQ-p48ccV1RbeYXU6utftR4=/322x478/smart/filters:format(webp)/media/movies/covers/2012/01/e71ab99a3e2299c35075e2b6396ebc7b.jpg"
+                                alt="Img-Arco" height="634">
+                            <div class="card-body">
+                                <h4 class="card-title">Arco de Water 7</h4>
+                                <p class="card-text">Este arco é frequentemente mencionado em conjunto com Enies Lobby e
+                                    é famoso pela revelação de que Robin estava sendo caçada pelo Governo Mundial, além
+                                    de apresentar Franky, que se junta à tripulação dos Chapéus de Palh</p>
+                                <a class="btn btn-primary"
+                                    href="https://www.myanimeforlife.com/best-one-piece-anime-arcs-ranked/">My anime for
+                                    life</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="Curiosidades">
+                <h2 class="cabeçalho">Curiosidades do mundo de One Piece</h2>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Inspiração em Piratas Reais
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Muitos personagens de One Piece são inspirados em piratas reais ou figuras
+                                    históricas. Por exemplo, o personagem "Barba Negra" é inspirado no pirata real
+                                    Edward Teach, também conhecido como Barba Negra.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Akuma no Mi
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    As frutas do diabo, ou Akuma no Mi, concedem poderes especiais a quem as come, mas
+                                    tiram sua habilidade de nadar. Existem três tipos principais: Paramecia (poderes
+                                    variados), Zoan (transformação em animais) e Logia (controle de elementos naturais).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Longa Duração
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>One Piece começou a ser publicado em 1997 e, desde então, tornou-se uma das séries de
+                                    mangá mais longas e populares do mundo. A série de anime também é extremamente
+                                    longa, com mais de 1.000 episódios.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Oda's Dedication
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Eiichiro Oda, o criador de One Piece, é conhecido por sua dedicação extrema. Ele
+                                    frequentemente trabalha 20 horas por dia e tira apenas três horas de sono para
+                                    garantir que a série continue sem interrupções.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Bounties
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Em One Piece, as recompensas oferecidas por piratas e criminosos são um reflexo de
+                                    seu nível de ameaça. Luffy, o protagonista, começou com uma pequena recompensa, mas
+                                    ao longo da série, sua recompensa aumentou significativamente à medida que ele se
+                                    tornou mais poderoso e infame.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Oda's Inspiration for Devil Fruits
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>
+                                    Oda mencionou que se inspirou nas frutas tropicais para criar as diversas Akuma no
+                                    Mi. Ele queria que elas parecessem exóticas e únicas, o que levou à criação das
+                                    frutas com formas e poderes únicos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contato">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2">
+                    <div class="col enviar">
+                        <section id="contato" class="contato">
+                            <h2>Entre em contato conosco</h2>
+                            <form id="form">
+                                <!-- Formulário de cadastro -->
+                                <div class="form-campo">
+                                    <label for="nome">Nome completo</label>
+                                    <input type="text" id="nome" name="nome" placeholder="John Doe">
+                                </div>
+                                <div class="form-campo">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" id="email" name="email" placeholder="email@exemplo.com">
+                                </div>
+                                <div class="form-campo">
+                                    <label for="telefone">Telefone</label>
+                                    <input type="tel" id="telefone" name="telefone">
+                                </div>
+                                <div class="form-campo">
+                                    <label for="texto">Texto</label>
+                                    <textarea name="texto" id="texto"></textarea>
+                                </div>
+                                <div class="d-grid gap-2 col-6 mx-auto">
+                                    <button class="btn btn-outline-success botao" type="button">Enviar</button>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                    <div class="col social">
+                        <h2>Nossas Redes sociais</h2>
+                        <div class="sociais-link">
+                            <a href="#">
+                                <img src="./icones/facebook.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./icones/instagram.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="./icones/youtube.png" alt="">
+                            </a>
+                        </div>
+                        <img src="./Img/giphy.gif" class="meme" alt="gif-luffy-meme" width="100%" height="47%">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
